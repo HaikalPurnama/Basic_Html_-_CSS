@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* font-family: 'Mulish', sans-serif;
+  font-family: 'Open Sans', sans-serif; */
+
+body {
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+
+    min-height: 100vh;
+}
+
+.page {
+    width: 1040px;
+    margin: 0px auto;
+    padding-top: 64px;
+}
+
+/* Check margin */
+nav {
+    width: 100%;
+    max-width: 1200px;
+    padding: 1rem 0;
+    height: 60px;
+    margin-inline: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: bold;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0;
+}
+
+  #logo {
+    /* Left aligned */
+    z-index: 1;
+}
+
+.connect-btn {
+    /* Right aligned */
+    z-index: 1;
+}
+
+  .nav-bar {
+    list-style-type: none;
+    display: flex;
+    gap: 48px;
+    margin: 0 auto; /* Centers the nav */
+    padding: 0;
+    position: absolute; /* Remove absolute positioning */
+    transform: none;
+
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+}
+
+.nav-bar li a {
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      color: #425c77;
+      border-radius: 999px;
+      transition: all 0.3s ease;
+  }
+
+/* Check list styling */
+nav ul{
+    padding-left: 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem 1rem;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+
+nav ul li a {
+    padding: 0.5rem 1.5rem;
+    border-radius: 999px;
+    gap: 4rem;
+
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: #425c77;
+    font-size: 18px;
+    transition: all 0.8s ease;
+}
+
+nav li a:hover {
+    background-color: #425c77;
+    color: white;
+    font-size: bold;
+}
+
+.connect-btn {
+    padding: 0.5rem 1.5rem;
+    border: 3px solid transparent;
+    border-radius: 999px;
+
+    background-color: #2d3e50;
+
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+.connect-btn:hover {
+    background: #798da3; ;
+    transform: scale(1.05);
+
+    color: #2d3e50;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 88px;
+}
+
+/* Check margin and font styling */
+.text {
+    text-align: left;
+    line-height: 1.5;
+  }
+  
+  .text p {
+    margin: 1rem 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* WhatsApp button styling */
+  .whatsapp-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0.8rem 1.5rem;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 999px;
+      border: none; /* Explicitly remove border */
+      outline: none;
+      font-family: Arial, sans-serif;
+      transition: all 0.3s ease;
+  }
+  
+  .whatsapp-btn:hover {
+    background: #128C7E; /* Darker green on hover */
+    transform: scale(1.05);
+    box-shadow: none;
+  }
+button {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+/* Check the text styling */
+footer {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Check the text styling */
+footer a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#balls {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
