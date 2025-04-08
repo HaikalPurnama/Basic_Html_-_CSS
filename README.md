@@ -1,1 +1,3 @@
-# Basic_Html_-_CSS
+# Learning Basic Front-end
+
+## Repositori ini berisi project saya mengenai pemahan di bagian front-end termasuk Basic html&css 
